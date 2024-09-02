@@ -2,13 +2,6 @@
 
 <pre>
 git clone https://github.com/ndb7967/community
-cd community
-</pre>
-
-#### Installation
-
-<pre>
-
 </pre>
 
 #### Prepare the Configuration File
@@ -21,4 +14,22 @@ cd community
 }
 </pre>
 
-#### 
+#### Install and Start the Server
+
+<pre>
+cd backend
+yarn install
+nodemon index.js
+</pre>
+
+#### Install and Start the Client
+
+<pre>
+cd frontend
+yarn install
+yarn start
+</pre>
+
+#### Usage
+
+* Connect the website <code>http://localhost:3000/</code>.
