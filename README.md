@@ -6,7 +6,7 @@ git clone https://github.com/ndb7967/community
 
 #### Prepare the Configuration File
 
-* Prepare the <code>config.json</code> file.
+* Prepare the <code>backend/config.json</code> file.
 <pre>
 {
     "db_string": {MongoDB Database String},
